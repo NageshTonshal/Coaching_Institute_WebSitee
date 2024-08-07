@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        lakshay coaching
+    </title>
+    <link rel="stylesheet" href="lakshay.css">
+    <style>
+        
+        .box1{
+            width: 330px;
+            height: 300px;
+            background-color: rgb(46, 235, 8);
+            color: antiquewhite;
+            font-size: 20px;
+            padding: 15px;
+            position: absolute;
+            top: 200px;
+            left: 50px;
+        }
+        .box1:hover{
+            color: rgb(46, 235, 8);
+            background-color: antiquewhite;
+            box-shadow: 0px 0px 10px 7px rgb(46, 235, 8);
+            transition: 0.8s;
+        }
+        .box2{
+            width: 330px;
+            height: 300px;
+            background-color: orangered;
+            color: antiquewhite;
+            font-size: 20px;
+            padding: 15px;
+            position: absolute;
+            top: 200px;
+            left: 480px;
+        }
+        .box2:hover{
+            color: orangered;
+            background-color: antiquewhite;
+            box-shadow: 0px 0px 10px 7px orangered;
+            transition: 0.8s;
+        }
+        .box3{
+            width: 330px;
+            height: 300px;
+            background-color: rgb(0, 200, 255);
+            color: antiquewhite;
+            font-size: 20px;
+            padding: 15px;
+            position: absolute;
+            top: 200px;
+            left: 900px;
+        }
+        .box3:hover{
+            color: rgb(0, 200, 255);
+            background-color: antiquewhite;
+            box-shadow: 0px 0px 10px 7px rgb(0, 200, 255);
+            transition: 0.8s;
+        }
+        .row2{
+            height: 450px;
+        }
+        .row3{
+            width: 940px;
+            height: 190px;
+            background-color: rgb(251, 249, 253);
+            margin: auto;
+            padding: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        .head{
+            text-align: center;
+            color: beige;
+        }
+        .row4{
+            width: 100%;
+            height: 400px;
+        }
+        .row4-box1{
+            width: 586px;
+            height: 386px;
+            background-color: white;
+            position: absolute;
+            top: 1080px;
+            left: 50px;
+            border: 7px dashed orangered;
+            overflow-y: scroll;
+            font-size: 18px;
+            font-family: verdana;
+        }
+        .row4-box2{
+            width: 350px;
+            height: 200px;
+            background-color: orangered;
+            position: absolute;
+            top: 1210px;
+            left: 740px;
+        }
+        .row4-box3{
+            width: 350px;
+            height: 200px;
+            background-color: orangered;
+            position: absolute;
+            top: 1140px;
+            left: 820px;
+        }
+        .row5{
+            width: 100%;
+            height: 500px;
+        }
+        .row5-box1{
+            width: 586px;
+            height: 386px;
+            background-color: white;
+            border: 7px dashed orangered;
+            overflow-y: scroll;
+            font-size: 18px;
+            font-family: verdana;
+            position: absolute;
+            top: 1570px;
+            left: 50px;
+
+        }
+        .row5-box2{
+            width: 350px;
+            height: 200px;
+            background-color: orangered;
+            position: absolute;
+            top: 1700px;
+            left: 740px;
+        }
+        .row5-box3{
+            width: 350px;
+            height: 200px;
+            background-color: orangered;
+            position: absolute;
+            top:1630px;
+            left: 830px;
+        }
+        .row8{
+            width: 100%;
+            height: 400px;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-gap: 30px;
+        }
+        .row8 div{
+            border: 2px solid white;
+            position: relative;
+        }
+        .row8 div a i{
+            display: block;
+            width: 40px;
+            height: 40px;
+            background-color: orangered;
+            color: white;
+            line-height: 40px;
+            text-align: center;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            box-shadow: 0px 3px 7px 3px rgb(42, 40, 40);
+            opacity: 0;
+            transition: .7s;
+        }
+        .row8 div:hover i{
+            transition: .7s;
+            opacity: 1;
+        }
+        .row9{
+            width: 800px;
+            height: 600px;
+            background-color: rgb(235, 224, 224);
+            margin: auto;
+        }
+        .row9-col1{
+            width: 454px;
+            height: 554px;
+            background-color: white;
+            float: left;
+            border: 3px solid;
+            margin: 10px;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .row9-col2{
+            width: 234px;
+            height: 334px;
+            background-color: white;
+            float: left;
+            margin: 10px;
+            border: 3px solid;
+            padding: 20px;
+        }
+        .row9-col3{
+            width: 274px;
+            height: 174px;
+            background-color: rgb(68, 255, 0);
+            float: left;
+            margin: 10px;
+            border: 3px solid;
+            background-image: url("m1.jpg");
+            background-size: cover;
+        }
+        input:hover{
+        box-shadow: 0 0 5px 3px orangered;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <b>NOTIFICATIONS</b>
+        <p style="font-family: Arial, Helvetica, sans-serif;">
+            Government Exams are one of the most sought-after exams in India. 
+            Getting through a Government exam is a dream come true for many aspirants. 
+            the competition level is top-notch due to a large number of aspirants trying to secure a job by clearing the govt exams. 
+            The Government of India conducts various exams to fill the posts in their administrative offices.
+        </p>
+    </div>
+    <div class="box2">
+        <b>CURRENT AFFAIRS</b>
+        <P style="font-family: Arial, Helvetica, sans-serif;">
+            Current Affairs is an integral part of your UPSC CSE preparation. 
+            It is included in the syllabus of Prelims under the title, “Issues of national and international importance”. 
+            Although it is not explicitly mentioned in the syllabus of UPSC CS (Main) Examination, descriptive questions on recent events are often asked in the examination.
+        </P>
+    </div>
+    <div class="box3">
+        <b>OUR FEATURES</b>
+        <P style="font-family: Arial, Helvetica, sans-serif;">
+            The Academy aims at developing a competitive attitude with a sound academic base among the students. 
+            The Academy lays great emphasis on leadership development, ethics & social responsibility to ensure that the bureaucrats of tomorrow do not suffer from moral and ethical bankruptcy.
+        </P>
+    </div>
+    <div class="row4-box1">
+        <div style="width: 200px; height: 200px; background-image: url('l1.webp'); background-size: cover; background-position: center; float: left;"></div>
+        <h1>&ensp;IPS-Safin Hasin</h1>
+        <p>
+         Safin Hasan, who achieved the remarkable feat of becoming India's youngest IPS Officer at the age of 22, cracked the prestigious UPSC examination in 2018, securing the 570th rank in the Civil Services examination that year. 
+         His journey continued as he assumed the role of Assistant Superintendent of Police in the Jamnagar district of India on December 23, 2019. Considering the rigorous nature of the UPSC examination, which serves as the gateway to prestigious government positions like IAS, IPS, and IFS, Safin Hasan's success story is both fascinating and inspirational for aspiring UPSC candidates.
+        </p>
+        <h4>Youngest IPS Officer in India</h4>
+        <p>
+         Overcoming the challenges and rigorous competition, Safin Hasan became the youngest civil service aspirant, by cracking the UPSC Exam in 2018. Remarkably, he achieved this victory in his first attempt at a very young age.
+         Belonging to Kanodar village in Gujarat’s Palanpur district, Safin Hasan grew up in a lower-middle class family. In the face of a difficult upbringing, he displayed unwavering determination and overcame formidable obstacles to achieve the distinction of becoming India's youngest IPS Officer. 
+         When questioned about the source of his motivation to embark on this professional journey, Hasan disclosed that his interaction with a District Magistrate (DM) had a profound impact on him, sparking his ambition to emulate an officer of such prestigious standing. The remarkable trajectory of Safin Hasan stands as a powerful testament to the strength of resolve and the ability to persevere, inspiring numerous aspiring young individuals who aspire to pursue a career in civil services.
+        </p>
+    </div>
+    <div class="row4-box2"></div>
+    <div class="row4-box3"></div>
+    <iframe width="350" height="200" src="https://www.youtube.com/embed/AnlCPdB4OA4?si=5DB8E8PgkGsHDoVi" title="YouTube video player" style="position: absolute;border: 5px dashed white; top: 1175px; left: 780px;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="row4-box4"></iframe>
+    <div class="row5-box1">
+        <div style="width: 200px; height: 200px; background-image: url('I2.jpeg'); background-size: cover; background-position: center; float: left;"></div>
+        <h1 style="text-align: center;">&ensp;IAS-Smita Sabharwal</h1>
+        <p>
+            IAS Smita Sabharwal was only 22 when she cleared the UPSC exams making her the youngest female IAS officer of India. 
+            Sabharwal cracked the exam in 2000 and secured a whopping AIR 4. Born in Darjeeling, West Bengal, Smita is the daughter of a retired Army colonel.
+        </p>
+        <p>
+            Smita did her schooling at St Ann's. She did her graduation in commerce from St Francis in Hyderabad. She was also the class topper in Class 12. 
+            IAS Sabharwal is very popular on social media and she has over 3.35 lakh followers on Twitter. 
+        </p>
+        <p>
+            IAS officer Smita Sabharwal is popularly known as the people's officer. She has been posted in several places in Telangana, including Warangal, Visakhapatnam, Karimnagar, and Chittoor. 
+            She is the youngest officer to have been posted at the CM's office.
+        </p>
+    </div>
+    <div class="row5-box2"></div>
+    <div class="row5-box3"></div>
+    <iframe width="350px" height="200px" src="https://www.youtube.com/embed/TkX2dogPX7c?si=uftv0cRRKOs82T3o" title="YouTube video player" frameborder="0" style="position: absolute;border: 5px dashed white;top: 1660px; left: 780px;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    <div class="row1">
+        <div class="row1-col1"><img src="11.png" alt="" width="150px" height="150px"></div>
+        <div class="row1-col2">
+            <div class="row1-col2-row1"><br>
+            <marquee behavior="slide" direction="left">LAKSHYA</marquee>
+            </div>
+            <div class="row1-col2-row2"><br>&nbsp;DREAM ACHIVER...</div>
+        </div>
+        <div class="row1-col3" style="color: white; text-decoration: underline;"><br><br><br>home</div>
+        <div class="row1-col4"><br><br><br><a href="about.html" style="color: white; text-decoration: none;">about</a></div>
+        <div class="row1-col5"><br><br><br><a href="register.html" style="color: white; text-decoration: none;">register</a></div>
+        <div class="row1-col6"><br><br><br>
+            <div class="m">
+                center <i class="fa-solid fa-caret-down" style="font-size: 15px;"></i>
+                <div class="dropdown">
+                    <a href="center.html" target="_self">Nerul</a>
+                    <a href="center.html" target="_self">Thane</a>
+                    <a href="center.html" target="_self">Dadar</a>
+                    <a href="center.html" target="_self">Ahemdabad</a>
+                    <a href="center.html" target="_self">Munar</a>
+                    <a href="center.html" target="_self">Borivali</a>
+                    <a href="center.html" target="_self">Satara</a>
+                    <a href="center.html" target="_self">Surat</a>
+                    <a href="center.html" target="_self">Pune</a>
+                </div>
+            </div>
+        </div>
+        <div class="row1-col7"><br><br><br>
+            <div class="n">
+                course <i class="fa-solid fa-caret-down" style="font-size: 15px;"></i>
+            <div class="drop">
+                    <a href="upsc.html" target="_self">UPSC</a>
+                    <a href="mpsc.html" target="_self">MPSC</a>
+                    <a href="railway.html" target="_self">RAILWAYS</a>
+            </div>
+        </div>
+        </div>
+        <div class="row1-col8"></div>
+    </div>
+        
+       <div class="row2"></div>
+       <br><br>
+       <h1 class="head">About Us</h1>
+       <hr style="width: 20%; height: 5px; background-color:  orangered;">
+       <div class="row3">
+        Lakshay Academy is a premiere Educational Institute offering guidance for UPSC & State PSC exams since more than a decade. DIA has branches all over Mumbai as well as other parts of India.. The academy has a unique approach towards UPSC studies which steers the thought process of students, 
+        to achieve the highest excellence not only in UPSC exam but enabling the students to face other challenges of life with an equal ease.Lakshay Academy imparts comprehensive training-cum-guidance program which covers all the stages of civil services exam – Preliminary Exam (the objective type screening test); Main exam (the descriptive type -written exam) and Interview. 
+        The Academy provides an optimal course program for all types of students. It has special programs for students who start at their early stage….
+       </div>
+       <br><br><br><br><br>
+       <div class="row4"></div>
+       <br><br><br><br>
+       <div class="row5"></div>
+       <br><br>
+       <h1 style="text-align: center; color: beige;">Our Faculty</h1>
+       <hr style="width: 20%; height: 3px; background-color:  orangered;">
+       <br><br>
+       <div class="row6">
+        <div style="background-image: url(f1.jpg); background-position: center; background-size: cover;"></div>
+        <div style="background-image: url(f4.jpg);  background-size: cover;"></div>
+        <div style="background-image: url(f3.jpg); background-position: top; background-size: cover;"></div>
+       </div><br>
+       <div class="row7">
+        <div>MR KHAN SIR</div>
+        <div>MR AVADH OJJA SIR</div>
+        <div>MR VIKAS SIR</div>
+       </div>
+       <br><br><br><br><br><br><br>
+       <h1 style="text-align: center; color: beige;">Subject</h1>
+       <hr style="width: 15%; height: 5px; background-color:  orangered;">
+       <div class="row8">
+        <div style="background-image: url(s1.jpg); background-position: top; background-size: cover;">
+
+                <a href="https://byjus.com/free-ias-prep/ias-history-syllabus/" target="_blank"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+        <div style="background-image: url(s2.avif); background-position: bottom; background-size: cover;">
+            
+                <a href="https://byjus.com/free-ias-prep/syllabus-geography-ias-exam/" target="_blank"><i class="fa-solid fa-magnifying-glass"></i></a>
+           
+        </div>
+        <div style="background-image: url(s3.webp); background-position: bottom; background-size: cover;">
+            
+                <a href="https://byjus.com/free-ias-prep/syllabus-and-strategy-for-economics/" target="_blank"><i class="fa-solid fa-magnifying-glass"></i></a>
+            
+        </div>
+        <div style="background-image: url(s4.jpg); background-position: top; background-size: cover;">
+            
+                <a href="https://byjus.com/govt-exams/upsc-epfo-syllabus/" target="_blank"><i class="fa-solid fa-magnifying-glass"></i></a>
+           
+        </div>
+        <div style="background-image: url(s5.png); background-position: bottom; background-size: cover;">
+           
+                <a href="https://byjus.com/free-ias-prep/upsc-anthropology-optional-syllabus/" target="_blank"><i class="fa-solid fa-magnifying-glass"></i></a>
+            
+        </div>
+        <div style="background-image: url(s66.jpg); background-size: cover;">
+            
+                <a href="https://byjus.com/govt-exams/upsc-epfo-syllabus/" target="_blank"><i class="fa-solid fa-magnifying-glass"></i></a>
+            
+        </div>   
+        <div style="background-image: url(s7.jpg); background-position: bottom; background-size: cover;">
+            
+                <a href="https://byjus.com/govt-exams/upsc-epfo-syllabus/" target="_blank"><i class="fa-solid fa-magnifying-glass"></i></a>
+            
+        </div>
+        <div style="background-image: url(s8.jpg); background-position: bottom; background-size: cover;">
+            
+                <a href="https://www.careerpower.in/upsc-epfo-syllabus" target="_blank"><i class="fa-solid fa-magnifying-glass"></i></a>
+            
+        </div>
+       </div>
+       <br><br><br><br><br><br><br><br><br><br><br>
+       <div class="row9">
+        <div class="row9-col1">
+            <h2 style="text-align: center;">Interview</h2>
+            <hr style="width: 40%; height: 3px; background-color:  orangered;">
+            <p>
+                Our program provides a dedicated support system for holistic personality development of the candidate to give him the confidence to face the interview board successfully.
+            </p>
+            <h4>Features</h4>
+            <ul>
+                <li>DAF analysis session with senior faculty members of lakshay IAS</li>
+                <li>Mock Interview Session with Ex-Bureaucrats/Educationists</li>
+                <li>Interaction with Previous toppers and Serving bureaucrats</li>
+                <li>Performance Evaluation and Feedback</li>
+            </ul>
+            <h4>Program Details</h4>
+            <ul>
+                <li>Personality Test Program Fee Rs. 500 (Rs. 250 for lakshay IAS Students)</li>
+                <li>Admissions Open</li>
+            </ul>
+            <h3>Important Instructions</h3>
+            <p>
+                For queries regarding DAF analysis and Mock interview contact at 7042413505, 9354559299
+            </p>
+        </div>
+        <div class="row9-col2">
+                <h3>JOIN LAKSHAY COACHING</h3>
+                <input type="text" value="" placeholder="&ensp;First Name" style="width: 200px; height: 30px; margin: 10px;" class="ip">
+                <input type="text" value="" placeholder="&ensp;Last Name" style="width: 200px; height: 30px; margin: 10px;">
+                <input type="email" value="" placeholder="&ensp;Email" style="width: 200px; height: 30px; margin: 10px;">
+                <input type="number" value="" placeholder="&ensp;contact No" style="width: 200px; height: 30px; margin: 10px;">
+                <a href=""><button style="width: 65px; height: 30px; font-family: Arial, Helvetica, sans-serif;color: white; background-color: orangered; border: 0px; border-radius: 5px; margin-left: 10px;"><b>Submit</b></button></a>
+            </div>
+            <div class="row9-col3"></div>
+       </div>
+       <br><br><br><br><br><br><br><br>
+       <div class="row10">
+        <div class="foot2">
+            <div class="foot1">
+                <h3 style="color: white; text-decoration: 3px underline white;font-family: Arial, Helvetica, sans-serif; text-align: center;">MAP</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7781480.3647858!2d70.41091940057875!3d17.76578502337952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1slakshya%20coaching%20centre!5e0!3m2!1sen!2sin!4v1709145929079!5m2!1sen!2sin" width="240px" height="160px" style="border:3px solid rgb(0, 0, 0); box-shadow: 0 5px 7px 3px white;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="foot1" style="color:white">
+                <h3 style="color: white; text-decoration: 3px underline white;font-family: Arial, Helvetica, sans-serif; text-align: center;">CONTACT US</h3>
+                <p style="font-family: sans-serif; font-size: 15px; color: white; word-spacing: 7px; text-align: left;" >
+                    <i class="fa-solid fa-location-dot"></i>
+                    &emsp;Office no.107,1st Floor. Seawoods Corner, Opp. Seawoods Railway Station. Sector-25, Nerul(E), Navi Mumbai – 400706.
+                </p>
+                <p><i class="fa-solid fa-phone"></i>&emsp;8475328495 | 8394857693</p>
+                <p><i class="fa-solid fa-envelope"></i>&emsp;lakshaycoaching80@gmail.com</p>
+            </div>
+            <div class="foot1">
+                <h3 style="color: white; text-decoration: 3px underline white;font-family: Arial, Helvetica, sans-serif; text-align: center;">OUR BRANCHES</h3>
+                <button class="btn"><a href="center.html" class="btn1">Nerul</a></button>
+                <button class="btn"><a href="center.html" class="btn1">Thane</a></button>
+                <button class="btn"><a href="center.html" class="btn1">Dadar</a></button>
+                <button class="btn"><a href="center.html" class="btn1">Ahemdabad</a></button>
+                <button class="btn"><a href="center.html" class="btn1">Munar</a></button>
+                <button class="btn"><a href="center.html" class="btn1">Borivali</a></button>
+                <button class="btn"><a href="center.html" class="btn1">Satara</a></button>
+                <button class="btn"><a href="center.html" class="btn1">Surat</a></button>
+                <button class="btn"><a href="center.html" class="btn1">Pune</a></button>
+            </div>
+        </div>
+       </div>
+       <div style="width:100%; height: 50px; background-color: rgb(253, 250, 249);" class="div11">
+                <ul>
+                    <li><a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="https://www.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a></li>
+                </ul>
+       </div>
+</body>
+<script src="https://kit.fontawesome.com/20d2be4bb2.js" crossorigin="anonymous"></script>
+</html>
